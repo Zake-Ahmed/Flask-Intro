@@ -1,4 +1,4 @@
-from flask import Flask, redirect, url_for
+from flask import Flask, redirect, url_for, request
 
 app = Flask(__name__)
 
@@ -15,5 +15,5 @@ def about():
 def square(num):
     return f'{num} squared is {num**2}'
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)
