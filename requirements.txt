@@ -3,3 +3,4 @@ pytest-cov
 python3-venv
 flask
 flask_sqlalchemy
+pymysql
